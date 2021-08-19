@@ -1,0 +1,18 @@
+#include <iostream>
+
+#include <cmath> //header file to use library functions
+
+using namespace std;
+
+int main()
+{
+  int num, power;
+  cout << "Enter an integer: ";
+  cin >> num; //taking input from the user
+  
+  power = pow(num, 5);
+  
+  cout << "Integer " << num << " raised to the power 5 is: " << power; //displaying power of number raised to 5
+  
+  return 0;
+}
